@@ -1,0 +1,125 @@
+Raid,Boss,Spell ID,Ability Name,Default Sound,Notes,TTS
+March on Quel'Danas,Belo'ren Child of Al'ar,1241292,Light Dive,(default),,
+March on Quel'Danas,Belo'ren Child of Al'ar,1241840,Light Patch,underyou,,
+March on Quel'Danas,Belo'ren Child of Al'ar,1241339,Void Dive,(default),,
+March on Quel'Danas,Belo'ren Child of Al'ar,1241841,Void Patch,underyou,,
+March on Quel'Danas,Belo'ren Child of Al'ar,1262861,Guardian's Edict,alarm,,
+March on Quel'Danas,Belo'ren Child of Al'ar,1244348,Holy Burn,alarm,,
+March on Quel'Danas,Belo'ren Child of Al'ar,1266404,Void Burn,alarm,,
+March on Quel'Danas,Belo'ren Child of Al'ar,1241992,Light Quill,(default),,
+March on Quel'Danas,Belo'ren Child of Al'ar,1242091,Void Quill,(default),,
+March on Quel'Danas,Belo'ren Child of Al'ar,1242803,Light Flames,underyou,,
+March on Quel'Danas,Belo'ren Child of Al'ar,1242815,Void Flames,underyou,,
+March on Quel'Danas,Midnight Falls,1282027,The Darkwell,underyou,,
+March on Quel'Danas,Midnight Falls,1282470,Dark Quasar,underyou,,
+March on Quel'Danas,Midnight Falls,1284984,Grim Symphony,long,Also 1286294,
+March on Quel'Danas,Midnight Falls,1286294,Grim Symphony,long,Paired with 1284984,
+March on Quel'Danas,Midnight Falls,1249609,Dark Rune,(default),"Also 1249565, 1249558, 1249562, 1249566, 1249550, 1273133",
+March on Quel'Danas,Midnight Falls,1249565,Dark Rune,(default),,
+March on Quel'Danas,Midnight Falls,1249558,Dark Rune,(default),,
+March on Quel'Danas,Midnight Falls,1249562,Dark Rune,(default),,
+March on Quel'Danas,Midnight Falls,1249566,Dark Rune,(default),,
+March on Quel'Danas,Midnight Falls,1249550,Dark Rune,(default),,
+March on Quel'Danas,Midnight Falls,1273133,Dark Rune,(default),,
+March on Quel'Danas,Midnight Falls,1249584,Dissonance,(default),,
+March on Quel'Danas,Midnight Falls,1251789,Cosmic Fracture,(default),,
+March on Quel'Danas,Midnight Falls,1284699,Light's End,(default),,
+March on Quel'Danas,Midnight Falls,1253031,Glimmering,info,,
+March on Quel'Danas,Midnight Falls,1265842,Impaled,alarm,,
+March on Quel'Danas,Midnight Falls,1262055,Eclipsed,alert,,
+March on Quel'Danas,Midnight Falls,1279512,Starsplinter,(default),Also 1285510,
+March on Quel'Danas,Midnight Falls,1285510,Starsplinter,(default),Paired with 1279512,
+March on Quel'Danas,Midnight Falls,1282016,Iris of Oblivion,(default),,
+March on Quel'Danas,Midnight Falls,1284527,Galvanize,(default),,
+March on Quel'Danas,Midnight Falls,1281184,Criticality,(default),,
+March on Quel'Danas,Midnight Falls,1284531,Decay,none,,
+March on Quel'Danas,Midnight Falls,1263514,Midnight,underyou,Also 1266623,
+March on Quel'Danas,Midnight Falls,1275429,Severance,info,RIGHT?,
+March on Quel'Danas,Midnight Falls,1266946,Severance,info,Other side?,
+March on Quel'Danas,Midnight Falls,1266113,Torchbearer,info,Also 1266627,
+March on Quel'Danas,Midnight Falls,1266627,Torchbearer,info,Paired with 1266113,
+March on Quel'Danas,Midnight Falls,1253770,Dawnlight Barrier,info,Also 1253104,
+March on Quel'Danas,Midnight Falls,1253104,Dawnlight Barrier,info,Paired with 1253770,
+The Dreamrift,Chimaerus,1245698,Alnsight,info,,Going Down
+The Dreamrift,Chimaerus,1250953,Rift Sickness,none,,
+The Dreamrift,Chimaerus,1265940,Fearsome Cry,alarm,,
+The Dreamrift,Chimaerus,1264756,Rift Madness,(default),,Swap with Up
+The Dreamrift,Chimaerus,1257087,Consuming Miasma,(default),,Clear Puddles
+The Dreamrift,Chimaerus,1258192,Lingering Miasma,none,,
+The Dreamrift,Chimaerus,1246653,Caustic Phlegm,none,,
+The Dreamrift,Chimaerus,1272726,Rending Tear,alarm,,
+The Voidspire,Crown of the Cosmos,1233602,Silverstrike Arrow (Targeted),(default),,Targeted by Arrow
+The Voidspire,Crown of the Cosmos,1232470,Grasp of Emptiness,alert,Also 1260027,Move out of puddle then Stop Moving
+The Voidspire,Crown of the Cosmos,1260027,Grasp of Emptiness,alert,Paired with 1232470,
+The Voidspire,Crown of the Cosmos,1283236,Void Expulsion (Targeted),(default),,Dodge
+The Voidspire,Crown of the Cosmos,1242553,Void Remnants,underyou,,
+The Voidspire,Crown of the Cosmos,1233865,Null Corona,alarm,Also 1233887,
+The Voidspire,Crown of the Cosmos,1233887,Null Corona,alarm,Paired with 1233865,
+The Voidspire,Crown of the Cosmos,1243753,Ravenous Abyss,alert,,
+The Voidspire,Crown of the Cosmos,1243981,Silverstrike Barrage,none,,
+The Voidspire,Crown of the Cosmos,1234570,Stellar Emission,alert,,
+The Voidspire,Crown of the Cosmos,1246462,Rift Slash,alarm,,
+The Voidspire,Crown of the Cosmos,1238206,Volatile Fissure,underyou,,
+The Voidspire,Crown of the Cosmos,1237623,Ranger Captain's Mark (Targeted),(default),Also 1259861,Targeted by Arrow
+The Voidspire,Crown of the Cosmos,1259861,Ranger Captain's Mark (Targeted),(default),Paired with 1237623,
+The Voidspire,Crown of the Cosmos,1237038,Voidstalker's Sting,alarm,,
+The Voidspire,Crown of the Cosmos,1227557,Devouring Cosmos,underyou,,
+The Voidspire,Crown of the Cosmos,1239111,Aspect of the End,(default),,"<break time=""400ms""/> Targeted <break time=""250ms""/> Move out of Big Circle"
+The Voidspire,Crown of the Cosmos,1255453,Gravity Collapse,alarm,,
+The Voidspire,Crown of the Cosmos,1238708,Dark Rush,info,,Feather Collected
+The Voidspire,Fallen-King Salhadaar,1250828,Void Exposure,underyou,,
+The Voidspire,Fallen-King Salhadaar,1250991,Dark Radiation,alarm,,
+The Voidspire,Fallen-King Salhadaar,1245960,Void Infusion,(default),,Boss consumed an Orb
+The Voidspire,Fallen-King Salhadaar,1245592,Torturous Extract,underyou,,
+The Voidspire,Fallen-King Salhadaar,1260030,Umbral Beams,underyou,,
+The Voidspire,Fallen-King Salhadaar,1253024,Shattering Twilight,(default),Tank variant; also 1268992,Move out to Drop Spikes
+The Voidspire,Fallen-King Salhadaar,1268992,Shattering Twilight,(default),Other variant,
+The Voidspire,Fallen-King Salhadaar,1251213,Twilight Spikes,underyou,,
+The Voidspire,Fallen-King Salhadaar,1248697,Despotic Command,(default),,Move out to Drop Puddle
+The Voidspire,Fallen-King Salhadaar,1248709,Oppressive Darkness,alarm,,
+The Voidspire,Fallen-King Salhadaar,1250686,Twisting Obscurity,none,,
+The Voidspire,Fallen-King Salhadaar,1271577,Destabilizing Strikes,alarm,,
+The Voidspire,Imperator Averzian,1255680,Gnashing Void,alarm,,
+The Voidspire,Imperator Averzian,1275059,Black Miasma,alert,,Cursed
+The Voidspire,Imperator Averzian,1249265,Umbral Collapse (Targeted),(default),Also 1260203,Targeted by Group Soak
+The Voidspire,Imperator Averzian,1260203,Umbral Collapse (Targeted),(default),Paired with 1249265,
+The Voidspire,Imperator Averzian,1280023,Void Marked,(default),,"Marked <break time=""250ms""/> Move to Add for Dispel"
+The Voidspire,Imperator Averzian,1280075,Lingering Darkness,info,DoT after dispel,
+The Voidspire,Imperator Averzian,1260981,March of the Endless,underyou,,Dodge Adds
+The Voidspire,Imperator Averzian,1265540,Blackening Wounds,alarm,,Maximum Health Down
+The Voidspire,Imperator Averzian,1283069,Weakened,(default),,Target of Voidspawn
+The Voidspire,Lightblinded Vanguard,1276982,Divine Consecration,underyou,,
+The Voidspire,Lightblinded Vanguard,1248985,Execution Sentence (Targeted),(default),Also 1248994,
+The Voidspire,Lightblinded Vanguard,1248994,Execution Sentence (Targeted),(default),,
+The Voidspire,Lightblinded Vanguard,1249008,Execution Sentence (Soaked),none,Also 1249024,
+The Voidspire,Lightblinded Vanguard,1249024,Execution Sentence (Soaked),none,,
+The Voidspire,Lightblinded Vanguard,1272324,Divine Tempest,underyou,,
+The Voidspire,Lightblinded Vanguard,1246736,Judgement (Final Verdict),alarm,,
+The Voidspire,Lightblinded Vanguard,1251857,Judgement (Shield of the Righteous),alarm,,
+The Voidspire,Lightblinded Vanguard,1248652,Divine Toll,alarm,,
+The Voidspire,Lightblinded Vanguard,1246487,Avenger's Shield (Targeted),(default),,Spread
+The Voidspire,Lightblinded Vanguard,1246502,Avenger's Shield (DoT),alarm,,
+The Voidspire,Lightblinded Vanguard,1248721,Tyr's Wrath,alarm,,"Debuffed<break time=""150ms""/>Move away from aura"
+The Voidspire,Lightblinded Vanguard,1258514,Blinding Light,alarm,,
+The Voidspire,Vaelgor & Ezzorak,1262656,Nullbeam,alarm,"Also 1262676, 1262999",
+The Voidspire,Vaelgor & Ezzorak,1262676,Nullbeam,alarm,,
+The Voidspire,Vaelgor & Ezzorak,1262999,Nullbeam,alarm,,
+The Voidspire,Vaelgor & Ezzorak,1244672,Nullzone,underyou,,Break Tether
+The Voidspire,Vaelgor & Ezzorak,1252157,Nullzone Implosion,alert,,Dodge Swirlies
+The Voidspire,Vaelgor & Ezzorak,1255612,Dread Breath (Targeted),(default),,"Targeted by Fear Frontal <break time=""150ms""/> Move out of Raid"
+The Voidspire,Vaelgor & Ezzorak,1264467,Tail Lash,underyou,,Hit by Tail
+The Voidspire,Vaelgor & Ezzorak,1245554,Gloomtouched,alert,,Touched Orb
+The Voidspire,Vaelgor & Ezzorak,1270852,Diminish,none,,
+The Voidspire,Vaelgor & Ezzorak,1245421,Gloomfield,underyou,,
+The Voidspire,Vaelgor & Ezzorak,1245059,Void Howl,alarm,,"Spread <break time=""2000ms""/> Kick Add"
+The Voidspire,Vaelgor & Ezzorak,1245175,Voidbolt,none,,
+The Voidspire,Vaelgor & Ezzorak,1265152,Impale,(default),,Hit by Tail
+The Voidspire,Vaelgor & Ezzorak,1248865,Radiant Barrier,info,Also 1249595,
+The Voidspire,Vaelgor & Ezzorak,1249595,Radiant Barrier,info,Paired with 1248865,
+The Voidspire,Vaelgor & Ezzorak,1270497,Shadowmark,(default),,Move out of Raid
+The Voidspire,Vorasius,1259186,Blisterburst,(default),,
+The Voidspire,Vorasius,1254113,Fixate,(default),,Fixated
+The Voidspire,Vorasius,1272527,Creep Spit,none,,
+The Voidspire,Vorasius,1243220,Dark Goo,underyou,Also 1243270,
+The Voidspire,Vorasius,1243270,Dark Goo,underyou,Paired with 1243220,
+The Voidspire,Vorasius,1241844,Smashed,(default),,

@@ -1,0 +1,17 @@
+## Interface: 120001, 120005, 120000
+
+## Title: BigWigs - |cff9b59b6Yvairel's Voice Pack - MID S1|r
+## Version: 12.0.1-1
+## Notes: A contextual voice pack for BigWigs that tells you what to do for Midnight S1 raid abilities.
+## Author: Yvairel
+
+## X-BigWigs-LoadOn-CoreEnabled: 1
+## Dependencies: BigWigs
+## LoadOnDemand: 1
+## IconTexture: Interface\AddOns\BigWigs\Media\Icons\core-enabled
+
+## X-Category: Raid
+## OptionalDeps: LibSharedMedia-3.0
+
+Sounds.lua
+Core.lua
