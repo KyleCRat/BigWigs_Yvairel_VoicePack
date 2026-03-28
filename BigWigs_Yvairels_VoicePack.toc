@@ -12,6 +12,8 @@
 
 ## X-Category: Raid
 ## OptionalDeps: LibSharedMedia-3.0
+## SavedVariables: YvairelVoicePackDB
 
 Sounds.lua
+Debug.lua
 Core.lua
