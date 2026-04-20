@@ -44,9 +44,16 @@ local function ensureDB()
 end
 
 local function isEnabled()
-	ensureDB()
-
 	return YvairelVoicePackDB.enabled
+end
+
+local function countAbilities(abilities)
+	local count = 0
+	for _ in pairs(abilities) do
+		count = count + 1
+	end
+
+	return count
 end
 
 local function getElapsed()
@@ -109,14 +116,23 @@ addon.logAbility = logAbility
 addon.isDebugEnabled = isEnabled
 
 local frame = CreateFrame("Frame")
+frame:RegisterEvent("ADDON_LOADED")
 frame:RegisterEvent("ENCOUNTER_START")
 frame:RegisterEvent("ENCOUNTER_END")
 frame:SetScript("OnEvent", function(_, event, ...)
-	if not isEnabled() then
+	if event == "ADDON_LOADED" then
+		local loadedName = ...
+		if loadedName == "BigWigs_Yvairels_VoicePack" then
+			ensureDB()
+			frame:UnregisterEvent("ADDON_LOADED")
+		end
+
 		return
 	end
 
-	ensureDB()
+	if not isEnabled() then
+		return
+	end
 
 	if event == "ENCOUNTER_START" then
 		local encounterID, encounterName, difficultyID, groupSize = ...
@@ -157,7 +173,6 @@ frame:SetScript("OnEvent", function(_, event, ...)
 end)
 
 local function printPulls()
-	ensureDB()
 	local pulls = YvairelVoicePackDB.pulls
 
 	if #pulls == 0 then
@@ -169,12 +184,7 @@ local function printPulls()
 	print(format("|cff9b59b6[YVP]|r %d pulls recorded:", #pulls))
 	for i, pull in ipairs(pulls) do
 		local resultColor = pull.result == "kill" and "|cff00ff00" or "|cffff0000"
-		local abilityCount = 0
-		if pull.abilities then
-			for _ in pairs(pull.abilities) do
-				abilityCount = abilityCount + 1
-			end
-		end
+		local abilityCount = pull.abilities and countAbilities(pull.abilities) or 0
 
 		print(format("  %d. %s %s (%s) %s%s|r - %s [%d events, %d abilities]",
 			i, pull.startTime, pull.boss, pull.difficulty,
@@ -185,7 +195,6 @@ local function printPulls()
 end
 
 local function printPull(index)
-	ensureDB()
 	local pulls = YvairelVoicePackDB.pulls
 
 	if not pulls[index] then
@@ -212,7 +221,6 @@ local function printPull(index)
 end
 
 local function printPullAbilities(index)
-	ensureDB()
 	local pulls = YvairelVoicePackDB.pulls
 
 	if not pulls[index] then
@@ -227,18 +235,7 @@ local function printPullAbilities(index)
 		pull.result, pull.duration or "?"
 	))
 
-	if not pull.abilities then
-		print("  No abilities recorded.")
-
-		return
-	end
-
-	local count = 0
-	for _ in pairs(pull.abilities) do
-		count = count + 1
-	end
-
-	if count == 0 then
+	if not pull.abilities or countAbilities(pull.abilities) == 0 then
 		print("  No abilities recorded.")
 
 		return
@@ -259,7 +256,6 @@ end
 
 SLASH_YVPVOICE1 = "/yvp"
 SlashCmdList["YVPVOICE"] = function(msg)
-	ensureDB()
 	msg = msg:trim():lower()
 
 	if msg == "debug on" then
