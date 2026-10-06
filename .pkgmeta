@@ -1,0 +1,15 @@
+package-as: BigWigs_Yvairels_VoicePack
+
+manual-changelog:
+    filename: CHANGELOG.md
+    markup-type: markdown
+
+ignore:
+    - AGENTS.md
+    - FIXME.md
+    - TODO.md
+    - "EXAMPLE*"
+    - "PrivateAuras*"
+    - "SpellIDs*"
+    - VoiceKeys.csv
+    - "*.ps1"

@@ -1,7 +1,7 @@
-## Interface: 120001, 120005
+## Interface: 120100, 120105
 
 ## Title: BigWigs - |cff9b59b6Yvairel's Voice Pack - MID S1|r
-## Version: 12.0.5-1
+## Version: 12.1.5-2
 ## Notes: A contextual voice pack for BigWigs that tells you what to do for Midnight S1 raid abilities.
 ## Author: Yvairel
 
